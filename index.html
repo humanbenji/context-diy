@@ -18,6 +18,7 @@
         body {
             font-family: 'Space Grotesk', sans-serif;
             background-color: #18181b;
+            height: 100%;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -25,12 +26,14 @@
             color: #ffffff;
             text-align: center;
             position: relative;
+            overflow-x: hidden;
         }
 
         .container {
             padding: 2rem;
             max-width: 800px;
             position: relative;
+            width: 100%;
         }
 
         .site-name {
@@ -124,13 +127,13 @@
 
         @media (max-width: 600px) {
             .site-name { 
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             p { 
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
             .container {
-                padding: 1.5rem;
+                padding: 1rem;
             }
         }
     </style>
